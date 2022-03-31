@@ -28,4 +28,3 @@ else:
                print(f'{name2} is younger.')
            else:
                print(f'{name1} is younger.')
-
