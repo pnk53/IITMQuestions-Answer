@@ -1,6 +1,7 @@
 print('Enter a string: ')
-string = str(input())
-vowels = []
+string = str(input()).lower()
+#vowels = [None]
+vowels = ''
 s = ['a','e','i','o','u']
 for c in string:
     if (c == 'a' or
@@ -9,7 +10,8 @@ for c in string:
         c == 'o' or
         c == 'u'
         ):
-        vowels.append(c)
+        #vowels.append(c)
+        vowels = vowels + c
 
 if(vowels != ''):
     print(vowels)
